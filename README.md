@@ -1,2 +1,2 @@
-# DesingPatternDemo
+# DesignPatternDemo
 這個專案整理23個 DesingPattern的範例程式碼
