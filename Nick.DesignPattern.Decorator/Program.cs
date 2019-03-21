@@ -10,17 +10,14 @@ namespace Nick.DesignPattern.Decorator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Nick.DesignPattern.Decorator\n");
 
             ConcreteComponent concreteComponent = new ConcreteComponent();
 
-            ConcreteDecoratorA dA = new ConcreteDecoratorA();
-            ConcreteDecoratorB dB = new ConcreteDecoratorB();
-
-            dA.SetComponent(concreteComponent);
-            dB.SetComponent(dA);
+            ConcreteDecoratorA dA = new ConcreteDecoratorA(concreteComponent);
+            ConcreteDecoratorB dB = new ConcreteDecoratorB(dA);
+            
             dB.Operation();
-
-            Console.WriteLine("Nick.DesignPattern.Decorator");
         }
     }
 }

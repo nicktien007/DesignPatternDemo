@@ -9,14 +9,12 @@ namespace Nick.DesignPattern.Decorator
     public class Decorator : Component
     {
         protected Component Component;
-        public void SetComponent(Component component)
+
+        public Decorator(Component component)
         {
             this.Component = component;
         }
 
-        public override void Operation()
-        {
-            Component?.Operation();
-        }
+        public override void Operation() => Component?.Operation();
     }
 }

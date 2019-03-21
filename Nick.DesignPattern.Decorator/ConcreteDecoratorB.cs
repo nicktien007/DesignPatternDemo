@@ -9,18 +9,20 @@ namespace Nick.DesignPattern.Decorator
 {
     public class ConcreteDecoratorB : Decorator
     {
+        public ConcreteDecoratorB(Component component) : base(component)
+        {
+        }
         public override void Operation()
         {
             base.Operation();
 
-            DoSoming();
+            DoSomething();
             
             Console.WriteLine("具體裝飾物件B 的操作!!");
         }
 
-        private void DoSoming()
-        {
-            Console.WriteLine("具體裝飾物件B 做一些事");
-        }
+        private void DoSomething() => Console.WriteLine("具體裝飾物件B 做一些事");
+
+
     }
 }

@@ -8,9 +8,6 @@ namespace Nick.DesignPattern.Decorator
 {
     public class ConcreteComponent : Component
     {
-        public override void Operation()
-        {
-            Console.WriteLine("具體物件的操作行為!!");
-        }
+        public override void Operation() => Console.WriteLine("具體物件的操作行為!!");
     }
 }
