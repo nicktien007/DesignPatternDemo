@@ -7,7 +7,10 @@ using Nick.DesignPattern.SimpleFactory;
 
 namespace Nick.DesignPattern.FactoryMethod
 {
-    class VeggiePizzaFactory: IPizzaFactory
+    /// <summary>
+    /// 製造素食口味的Pizza 工廠
+    /// </summary>
+    public class VeggiePizzaFactory: IPizzaFactory
     {
         public Pizza CreatePizza()
         {

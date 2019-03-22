@@ -13,15 +13,18 @@ namespace Nick.DesignPattern.FactoryMethod
         {
             Console.WriteLine("Nick.DesignPattern.FactoryMethod\n");
 
+            //指定相對應的工廠
             IPizzaFactory cheesePizzaFactory = new CheesePizzaFactory();
             IPizzaFactory veggiePizzaFactory = new VeggiePizzaFactory();
 
+            //製造Pizza
             Pizza cheesePizza = cheesePizzaFactory.CreatePizza();
             Pizza veggiePizza = veggiePizzaFactory.CreatePizza();
 
             cheesePizza.GetName();
             veggiePizza.GetName();
 
+            Console.WriteLine("");
         }
     }
 }
