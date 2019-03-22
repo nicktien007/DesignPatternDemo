@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nick.DesignPattern.SimpleFactory
 {
-    class VeggiePizza: Pizza
+    public class VeggiePizza: Pizza
     {
         public override void GetName() => Console.WriteLine("我是 Veggie口味的 Pizza");
     }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.DesignPattern.Proxy", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.DesignPattern.SimpleFactory", "Nick.DesignPattern.SimpleFactory\Nick.DesignPattern.SimpleFactory.csproj", "{10D7C0AF-07AB-4A7D-9242-0E1BFCA93174}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.DesignPattern.FactoryMethod", "Nick.DesignPattern.FactoryMethod\Nick.DesignPattern.FactoryMethod.csproj", "{D2FBD798-ADF3-477B-B743-306694D9A5C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{10D7C0AF-07AB-4A7D-9242-0E1BFCA93174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10D7C0AF-07AB-4A7D-9242-0E1BFCA93174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10D7C0AF-07AB-4A7D-9242-0E1BFCA93174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FBD798-ADF3-477B-B743-306694D9A5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FBD798-ADF3-477B-B743-306694D9A5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FBD798-ADF3-477B-B743-306694D9A5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FBD798-ADF3-477B-B743-306694D9A5C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
