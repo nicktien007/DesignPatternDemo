@@ -30,6 +30,23 @@ namespace Nick.DesignPattern.Prototype
 
             Console.WriteLine(ReferenceEquals(concretePrototype, clone));
 
+            //json prototype
+            var concretePrototypeJson = new ConcretePrototypeJson()
+            {
+                Property1 = "Property1111",
+                Property2 = "Property2222",
+                Detail = new Detail()
+                {
+                    Id = 222,
+                    Name = "Json"
+                }
+            };
+
+            var cloneJson = concretePrototypeJson.Clone();
+            Console.WriteLine(concretePrototypeJson);
+            Console.WriteLine(cloneJson);
+            Console.WriteLine(ReferenceEquals(concretePrototypeJson, cloneJson));
+
             Console.WriteLine("");
         }
     }
